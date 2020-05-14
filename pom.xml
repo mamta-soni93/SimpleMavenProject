@@ -15,7 +15,7 @@
      </properties>
        <!-- end::joda[] -->
        
-	  <depedencies>
+	  <dependencies>
 	  
 		<!-- https://mvnrepository.com/artifact/junit/junit -->
 			<dependency>
@@ -24,7 +24,7 @@
 				<version>4.10</version>
 				<scope>test</scope>
 			</dependency>
-	</depedencies>
+	</dependencies>
 
 			
     <build>
