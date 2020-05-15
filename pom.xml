@@ -17,6 +17,11 @@
        
 	  <dependencies>
 	  
+		<dependency>
+            <groupId>com.fis.mi.Common</groupId>
+            <artifactId>Utils</artifactId>
+            <version>4.0.2458977.86</version>
+        </dependency>
 		<!--log4j -->
         <dependency>
             <groupId>com.amazonaws</groupId>
