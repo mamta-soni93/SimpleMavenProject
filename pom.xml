@@ -17,12 +17,19 @@
        
 	  <dependencies>
 	  
-		<!-- https://mvnrepository.com/artifact/junit/junit -->
-			<dependency>
-            <groupId>com.fis.mi.Common</groupId>
-            <artifactId>Utils</artifactId>
-            <version>4.0.2458977.86</version>
+		<!--log4j -->
+        <dependency>
+            <groupId>com.amazonaws</groupId>
+            <artifactId>aws-lambda-java-log4j</artifactId>
+            <version>1.0.0</version>
         </dependency>
+        <!-- tests -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
 	</dependencies>
 
 			
